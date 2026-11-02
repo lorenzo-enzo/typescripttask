@@ -9,3 +9,38 @@
  * 
  * display the student data using console.log.
  */
+
+// 1. Definisi Tipe Data (Type Definition)
+type Student = {
+  studentId: string;
+  fullName: string;
+  age: number;
+  isActive: boolean;
+};
+
+// 2. Implementasi Data untuk 3 Siswa
+const student1: Student = {
+  studentId: "ST2026001",
+  fullName: "Nadia Putri",
+  age: 16,
+  isActive: true,
+};
+
+const student2: Student = {
+  studentId: "ST2026002",
+  fullName: "Budi Santoso",
+  age: 17,
+  isActive: true,
+};
+
+const student3: Student = {
+  studentId: "ST2026003",
+  fullName: "Citra Lestari",
+  age: 16,
+  isActive: false,
+};
+
+
+console.log(student1);
+console.log(student2);
+console.log(student3);
